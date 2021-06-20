@@ -1,0 +1,1325 @@
+html {
+  height: 100%;
+  margin-bottom: 0px;
+  font-family:Arial,Verdana, Helvetica, sans-serif;
+  font:Arial,Verdana, Helvetica, sans-serif
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+img,table {
+	border:none;
+}
+
+body {
+	font-family: Arial,sans-serif,Helvetica;
+	line-height: 1.3em;
+	margin: 0px 0px 0px 0px;
+	font-size: 12px;
+	color: #333;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	font-weight: normal;
+	font-family:Arial,Verdana, Helvetica, sans-serif;
+  font:Arial,Verdana, Helvetica, sans-serif;
+}
+
+a:hover {
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+.button{
+	cursor: pointer;
+	color:#FFF;
+	font-size:11px;
+	height:18px;
+	border: none;
+	/*background: #6B95C5;*/
+	background: #0A204A;
+	padding: 2px;
+}
+
+
+p {
+  margin-top: 0;
+  margin-bottom: 5px;
+  text-align:justify;
+}
+
+/*****************************************/
+/*** Template specific layout elements ***/
+/*****************************************/
+#page_bg {
+	padding: 0;
+	background: #fff url(../images/bg.jpg) top left repeat;
+	margin:0;
+}
+
+#frame_bg {
+	margin:0;
+/*	padding:0;
+	background: transparent url(../images/page_bg.jpg) top left repeat-x;*/
+}
+
+div#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width:980px;
+}
+
+div#extras {
+	background: transparent url(../images/extras_bg.jpg) top left repeat-x;);
+	width:980px;
+	margin:0 auto;
+	height:31px;
+	/*padding:0 0px;*/
+}
+
+
+#logo {
+	padding:0px 10px;
+	margin:2px 0 0 1px;
+	text-align: left;
+	float:left;
+	background: transparent url(../images/logo_bg.jpg) top left no-repeat;
+}
+
+#logo a.logo, #logo a.logo:link, #logo a.logo:hover, #logo a.logo:visited {
+	font-weight: bold;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 3em;
+	padding:0;
+	margin:0;
+	line-height:1.4em;
+	color:#577596;
+	text-decoration:none;
+}
+
+div#newsflash {
+	width: auto;
+	margin-left: 350px;
+	margin-right: 30px;
+	border: 1px solid #00f;
+}
+
+div#footer {
+	width:980px;
+	margin:0 auto;
+}
+
+div#footer_r {
+	height: 30px;
+	overflow: hidden;
+}
+
+div#footer_r div {
+	text-align: center;
+	font-size: .90em;
+	color: #aaa;
+}
+
+div#footer_r a:link, div#footer_r a:visited  {
+	color: #fff;
+}
+
+#pathway {
+	float:left;
+	padding: 0px;
+	/*width: auto;*/
+	width: 350px;
+	text-align: left;
+}
+
+#search {
+	float:left;
+	width:200px;
+	height:26px;
+	text-align:left;
+	padding:5px 0px 0 5px;
+}
+
+#area {
+	padding: 0;
+	width:100%;
+	background: url(../images/whitebox_bg.jpg) top left repeat-y;
+	
+}
+
+#topnews {
+	margin:40px 0 0 0 ;
+	width:490px;
+	height:120px;
+	color:#666;
+}
+
+#whitebox {
+	margin: 0 auto;
+	/*width: 978px;*/
+	width:980px;
+	background: transparent url(../images/top_menu_bg.jpg) top left repeat;
+	height:24px;
+	text-align:left;
+}
+
+#whitebox div {
+	text-align: left;
+}
+
+#whitebox_m {
+	width: 980px;
+	padding: 0;
+	margin:0 auto;
+}
+
+#shodow {
+	width:980px;
+	height: 10px;
+	margin:0 auto;
+	background: url(../images/shodow_bg.jpg) top left no-repeat;
+	font-size:8px;
+}
+
+
+#whitebox_br {
+	height: 13px;
+	background: url(../images/mw_content_b_r.png) 100% 100% no-repeat;
+}
+
+/* horizontal pill menu */
+table.pill {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  text-align:left;
+}
+
+td.pill_m {
+  padding: 0;
+  margin: 0;
+  width: 980px;
+  text-align:left;
+}
+
+
+#pillmenu {
+  white-space: nowrap;
+  float: left;
+}
+
+#pillmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style:none;
+}
+
+#pillmenu li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#pillmenu a {
+  font-family: Tahoma, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  float:left;
+  display:block;
+  line-height: 24px;
+  padding: 0px 15px;
+  color: #fefefe;
+  text-decoration: none;
+}
+
+#pillmenu a:hover {
+  color: #fff;
+  
+  text-decoration: underline;
+}
+
+#pillmenu a#active_menu-nav {
+}
+
+#leftcolumn {
+	margin: 0;
+	width: 190px;
+	padding:10px;
+	float:left;
+}
+
+#rightcolumn {
+	margin: 0;
+	width: 200px;
+	padding:10px;
+	float: right;
+}
+
+div#maincolumn {
+padding:10px 0 5px 5px;
+float:left;
+width: 535px;
+}
+
+div#maincolumn_full {
+padding:10px 0 5px 5px;
+width: 715px;
+float: left
+}
+
+div.nopad {
+	padding: 0;
+}
+
+td.middle_pad {
+	width: 20px;
+}
+
+/*****************************************/
+/*** Joomla! specific content elements ***/
+/*****************************************/
+
+
+div.offline {
+	background: #fffebb;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 1.2em;
+	padding: 5px;
+}
+
+span.pathway {
+  display: block;
+  margin: 0 10px;
+  height: 23px;
+  font-size:12px;
+  overflow: hidden;
+  padding:8px 0 0 0;
+  color:#fff;
+}
+
+span.pathway a, span.pathway a:link, span.pathway a:hover,span.pathway a:visited {
+	color:#fff;
+}
+
+/* 800s */
+div.componentheading {
+  padding-left: 0px;
+}
+
+h1 {
+	padding: 0;
+	font-family:Helvetica ,Arial,sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	vertical-align: bottom;
+	color: #666;
+	text-align: left;
+	width: 100%;
+}
+
+h2, .contentheading {
+	padding: 0;
+	font-family: Arial,Helvetica ,sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	vertical-align: bottom;
+	color: #5076b6;
+	text-align: left;
+	width: 100%;
+}
+
+table.contentpaneopen h3 {
+	margin-top: 25px;
+}
+
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+h3, .componentheading, table.moduletable th, legend {
+  margin: 0;
+  font-weight: bold;
+  font-family: Arial,Helvetica,sans-serif;
+  color:#5076b6;
+  font-size: 1.4em;
+  padding-left: 0px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+/* small text */
+.small {
+	font-size: .90em;
+	color: #999;
+	font-weight: normal;
+	text-align: left;
+}
+
+.modifydate {
+  height: 20px;
+  vertical-align: bottom;
+	font-size: .90em;
+	color: #999;
+	font-weight: normal;
+	text-align: left;
+}
+
+.createdate {
+	height: 20px;
+	vertical-align: top;
+	font-size: .90em;
+	color: #999;
+	font-weight: normal;
+	vertical-align: top;
+	padding-bottom: 5px;
+	padding-top: 0px;
+
+}
+
+a.readon {
+	margin-top: 10px;
+	display: block;
+	float: left;
+	background: url(../images/mw_readon.png) top right no-repeat;
+	padding-right: 20px;
+	line-height: 14px;
+	height: 16px;
+}
+
+/* form validation */
+.invalid { border-color: #ff0000; }
+label.invalid { color: #ff0000; }
+
+
+/** overlib **/
+
+.ol-foreground {
+	background-color: #f6f6f6;
+}
+
+.ol-background {
+	background-color: #666;
+}
+
+.ol-textfont {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.ol-captionfont {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #f6f6f6;
+	font-weight: bold;
+}
+.ol-captionfont a {
+	color: #0B55C4;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.ol-closefont {}
+
+/* menu links */
+a.mainlevel:link, a.mainlevel:visited {
+	padding-left: 5px;
+
+}
+
+a.mainlevel:hover {
+ 
+}
+
+/* spacers */
+span.article_separator {
+	display: block;
+	height: 20px;
+}
+
+.article_column {
+	padding-right: 5px;
+}
+
+.column_separator {
+	border-left: 1px dashed #e0e0e0;
+	padding-left: 10px;
+}
+
+td.buttonheading {
+
+}
+
+.clr {
+	clear: both;
+}
+
+
+div#maindivider {
+  border-top: 1px solid #ddd;
+  margin-bottom: 10px;
+  overflow: hidden;
+  height: 1px;
+}
+
+table.blog span.article_separator {
+	display: block;
+	height: 20px;
+}
+
+/* table of contents */
+table.contenttoc {
+  margin: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+table.contenttoc td {
+  padding: 0 5px;
+}
+
+
+/* content tables */
+td.sectiontable1204 {
+  background: #efefef;
+  color: #333;
+  font-weight: bold;
+  padding: 4px;
+  border-right: 1px solid #fff;
+}
+
+tr.sectiontableentry0 td,
+tr.sectiontableentry1 td,
+tr.sectiontableentry2 td {
+  padding: 4px;
+}
+
+td.sectiontableentry0,
+td.sectiontableentry1,
+td.sectiontableentry2 {
+  padding: 3px;
+}
+
+
+/* content styles */
+table.contentpaneopen[style]{
+	background-color:#CCE4B0 !important;
+}
+
+table.contentpaneopen, table.contentpane {
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+table.contentpaneopen li {
+	margin-bottom: 5px;
+}
+
+table.contentpaneopen fieldset {
+	border: 0;
+	border-top: 1px solid #ddd;
+}
+
+table.contentpaneopen h3 {
+	margin-top: 25px;
+}
+
+table.contentpaneopen h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+.highlight {
+	background-color: #fffebb;
+}
+
+/* module control elements */
+table.user1user2 div.moduletable {
+	margin-bottom: 0px;
+}
+
+div.moduletable, div.module {
+  margin-bottom: 5px;
+}
+
+div.module_menu {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 15px;
+}
+
+div.module_menu div div div {
+	padding: 0px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	width: auto;
+}
+
+div.module_menu div div div div {
+	background: none;
+	padding: 0;
+}
+
+div.module_menu ul {
+	margin: 10px 0;
+	padding-left: 10px;
+	list-style:none;
+}
+
+div.module_menu ul li {
+	margin: 0;
+	padding: 0;
+}
+
+div.module_menu ul li a:link, div.module_menu ul li a:visited {
+	font-weight: bold;
+	background:transparent url(../images/blue/bullet2.jpg) top left no-repeat;
+	padding:2px 0 2px 25px;
+	line-height:24px;
+	color:#FF0000
+}
+
+#leftcolumn div.module table ,#rightcolumn div.module table {
+	width: auto;
+}
+
+#leftcolumn h3, #rightcolumn h3 {
+	margin: 0;
+	color:#fefefe;
+	font-weight: bold;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 1.1em;
+	background:#eeeeee;
+	padding:2px 0 2px 10px;
+	line-height:20px;
+	text-align: left;
+	background:transparent url(../images/menu_t.jpg) top left repeat-x;
+	
+}
+
+
+#leftcolumn .moduletable_menu, #leftcolumn .moduletable, #leftcolumn .moduletable_text, #leftcolumn .c, 
+#rightcolumn .moduletable_menu, #rightcolumn .moduletable, #rightcolumn .moduletable_text, #rightcolumn .c {
+	margin:0 0 20px 0;
+	padding: 3px;
+	border:1px solid #419250;
+	background:#fefefe;	
+}
+
+#leftcolumn ul.menu, #rightcolumn ul.menu {
+	margin:0;
+	padding:0;
+	list-style:none;
+	border:1px solid #ccc;
+	border-top:none;
+}
+
+#leftcolumn ul.menu li, #rightcolumn ul.menu li {
+	margin:0;
+	padding:0;
+	background: #f5f5f5;
+}
+
+#leftcolumn ul.menu li a, #leftcolumn ul.menu li a:link,
+#rightcolumn ul.menu li a, #rightcolumn ul.menu li a:link {
+	display:block;
+	line-height:20px;
+	background:#f5f5f5 url(../images/menu_link_bg.gif) left no-repeat;
+	padding:2px 20px;
+	border-top:1px solid #dddddd;
+	text-decoration:none;
+	color:#5076b6;
+}
+
+#leftcolumn ul.menu li a:hover, #rightcolumn ul.menu li a:hover {
+	background:#eeeeee url(../images/menu_link_bg.gif) left no-repeat;
+	color:#666666;
+}
+
+/* ****** left col current menu ****** */
+#leftcolumn ul.menu li#current a, #leftcolumn ul.menu li#current a:link, 
+#rightcolumn ul.menu li#current a, #rightcolumn ul.menu li#current a:link {
+	display:block;
+	line-height:20px;
+	background:#f5f5f5 url(../images/menu_curren_link_bg.gif) left no-repeat;
+	padding:2px 20px;
+	border-top:1px solid #dddddd;
+	text-decoration:none;
+	color:#ff8800;
+}
+
+#leftcolumn ul.menu li#current a:hover, #rightcolumn ul.menu li#current a:hover {
+	background:#eeeeee url(../images/menu_curren_link_bg.gif) left no-repeat;
+	color:#666666;
+}
+
+/* ****** left col sub menu ****** */
+#leftcolumn ul.menu li ul, #rightcolumn ul.menu li ul {
+	margin:0;
+	padding:0 0 0 0px;
+	list-style:none;
+}
+
+#leftcolumn ul.menu li#current ul li a, #leftcolumn ul.menu li#current ul li a:link,
+#rightcolumn ul.menu li#current ul li a, #rightcolumn ul.menu li#current ul li a:link {
+	background:#f5f5f5 url(../images/menu_sub_link_bg.gif) left no-repeat;
+	text-decoration:none;
+	color:#5076b6;
+	padding:2px 25px;
+}
+
+#leftcolumn ul.menu li#current ul li a:hover, #rightcolumn ul.menu li#current ul li a:hover {
+	background:#f5f5f5 url(../images/menu_sub_link_bg.gif) left no-repeat;
+	color:#666666;
+}
+
+/* forms */
+#leftcolumn .moduletable ul, #rightcolumn .moduletable ul {
+	margin:6px 0;
+	padding:0;
+	list-style:none;
+}
+
+#leftcolumn .moduletable ul li, #rightcolumn .moduletable ul li {
+	margin:0;
+	padding:0 2px;
+}
+
+table.adminform textarea {
+  width: 540px;
+  height: 400px;
+  font-size: 1em;
+  color: #000099;
+}
+
+div.search input {
+	margin:0 2px 0 0;
+}
+
+.search #mod_search_searchword {
+	width:122px;
+	background:#f5f5f5 url(../images/search_bg.jpg) left no-repeat;
+	border:none;
+	color:#fff;
+	padding:2px 4px 0 4px;
+	height:18px;
+}
+
+form#form-login fieldset { border: 0 none; margin: 0em; padding: 0.2em;}
+form#form-login ul { padding-left: 20px; }
+
+/* thumbnails */
+div.mosimage         {  margin: 5px; }
+div.mosimage_caption {  font-size: .90em; color: #666; }
+
+div.caption       { padding: 0 10px 0 10px; }
+div.caption img   { border: 1px solid #CCC; }
+div.caption p     { font-size: .90em; color: #666; text-align: center; }
+
+/* Parameter Table */
+table.paramlist {
+	margin-top: 5px;
+}
+
+table.paramlist td.paramlist_key {
+	width: 128px;
+	text-align: left;
+	height: 30px;
+}
+
+table.paramlist td.paramlist_value {
+}
+
+div.message {
+	font-family : "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size : 14px;
+	color : #c30;
+	text-align: center;
+	width: auto;
+	background-color: #f9f9f9;
+	border: solid 1px #d5d5d5;
+	margin: 3px 0px 10px;
+	padding: 3px 20px;
+}
+
+/* Banners module */
+
+/* Default skyscraper style */
+.bannergroup {
+}
+
+.banneritem {
+}
+
+/* Text advert style */
+
+.banneritem_text {
+	padding: 4px;
+	font-size: 11px;
+}
+
+.bannerfooter_text {
+	padding: 4px;
+	font-size: 11px;
+	background-color: #F7F7F7;
+	text-align: right;
+}
+
+/* System Messages */
+/* see system general.css */
+
+.pagination span { padding: 2px; }
+.pagination a    { padding: 2px; }
+
+/* Polls */
+.pollstableborder td {
+	text-align: left;
+}
+
+/* Frontend Editing*/
+fieldset {
+	border: 1px solid #ccc;
+	margin-top: 15px;
+	padding: 15px;
+}
+
+legend {
+	margin: 0;
+	padding: 0 10px;
+}
+
+td.key {
+	border-bottom:1px solid #eee;
+	color: #666;
+}
+
+/* Tooltips */
+.tool-tip {
+	float: left;
+	background: #ffc;
+	border: 1px solid #D4D5AA;
+	padding: 5px;
+	max-width: 200px;
+}
+
+.tool-title {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-weight: bold;
+	margin-top: -15px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	background: url(../../system/images/selector-arrow.png) no-repeat;
+}
+
+.tool-text {
+	font-size: 100%;
+	margin: 0;
+}
+
+/* System Standard Messages */
+
+#system-message dd.message ul { background: #C3D2E5 url(../../images/notice-info.png) 4px center no-repeat;}
+
+/* System Error Messages */
+#system-message dd.error ul { color: #c00; background: #E6C0C0 url(../../system/images/notice-alert.png) 4px center no-repeat; border-top: 3px solid #DE7A7B; border-bottom: 3px solid #DE7A7B;}
+
+/* System Notice Messages */
+#system-message dd.notice ul { color: #c00; background: #EFE7B8 url(../../system/images/notice-note.png) 4px center no-repeat; border-top: 3px solid #F0DC7E; border-bottom: 3px solid #F0DC7E;}
+
+
+
+/* ****************************************************************************** */
+/* blue */
+input,button {
+	border:1px solid #dcdcdc;
+	background:transparent;
+}
+
+
+/* blue */
+a:link, a:visited {
+	/*color: #5076b6;*/
+	color:#FF0000;
+	font-family:Arial, Helvetica, sans-serif;
+	/*font-weight:bold*/
+}
+
+a:hover {
+	/*color: #0b3768;*/
+	color:#FF6600;
+	font-family:Arial, Helvetica, sans-serif;
+	/*font-weight:bold*/
+}
+
+#pillmenu a#active_menu-nav {
+  color: #fff;
+  background: transparent url(../images/top_menu_arrow.jpg) top center no-repeat;
+}
+
+#pillmenu a#active_menu-nav:hover {
+  color: #fff;
+  background: transparent url(../images/top_menu_arrow.gif) top center no-repeat;
+}
+
+h3, .componentheading, table.moduletable th {
+  color: #5076b6;
+}
+
+div.module_menu {
+	background: url(../images/blue/module_mright_bg.jpg) 100% 100% no-repeat;
+}
+
+div.module_menu div {
+	background: url(../images/blue/module_mleft_bg.jpg) 0 100% no-repeat;
+}
+
+div.module_menu div div {
+	background: url(../images/blue/module_right_bg.jpg) 100% 0 no-repeat;
+}
+
+div.module_menu div div div {
+	background: url(../images/blue/module_left_bg.jpg) 0 0 no-repeat;
+}
+
+/* ********************************************************************************* */
+/* blue */
+
+div#header {
+	/*background: transparent url(../images/header_top_middle_shadow_bg.jpg) top left repeat-x;*/
+	background: transparent url(../images/ktx.jpg) top left repeat-x;
+	/*height:242px;*/
+	height:119px;
+}
+
+div#header_en {
+	/*background: transparent url(../images/header_top_middle_shadow_bg.jpg) top left repeat-x;*/
+	background: transparent url(../images/ktx_en.jpg) top left repeat-x;
+	/*height:242px;*/
+	height:119px;
+}
+
+div#header_l {
+	background: transparent url(../images/header_line_bg.jpg) top left no-repeat;
+	height:242px;
+}
+div#logo_bg {
+	background: transparent url(../images/logo.jpg) top right no-repeat;
+	height:242px;	
+}
+
+div#logo_bg div {
+	text-align: left;
+}
+
+div#footer {
+	background: url(../images/footer_m_bg.jpg) 0 100% repeat-x;
+}
+
+div#footer_l {
+background-color:#FF9501;/*background: url(../images/footer_l_bg.jpg) 0 0 no-repeat;*/
+}
+
+div#footer_r {
+background-color:#FF9501;/*background: url(../images/footer_r_bg.jpg) 100% 0 no-repeat;*/
+}
+
+/* ********************************************************************** */
+
+input[type="checkbox"], input[type="radio"]{
+   background: transparent;
+   border: none;
+}
+
+/* -------------------------- */
+a.sgfooter:link, a.sgfooter:visited {
+	color:lightskyblue;
+	font-family: Arial,sans-serif;
+	text-decoration:none;
+}
+a.sgfooter:hover {
+
+}
+#sgf {
+font-size: 11px;
+text-align:center;
+width:100%;
+margin:0px auto;
+color:white;
+background-color:#3C9345;
+font-family: Arial,sans-serif;
+}
+.sgf {
+text-align:right;
+font-size: 11px;
+font-family: Arial,sans-serif;
+color: #2861a4;
+text-decoration:none;
+}
+.sgf1 {
+font-size: 11px;
+font-family: Arial,sans-serif;
+color: #2861a4;
+text-align:left;
+}
+
+a.sglink:link, a.sglink:visited {
+	color			: #2861a4;
+	font-size		: 11px;
+	font-family: Arial,sans-serif;
+	text-decoration:none;
+}
+a.sglink:hover {
+	color			: #2861a4;
+	font-family: Arial,sans-serif;
+	text-decoration:none;
+}
+/*Jquery menu*/
+
+
+.mainlevel {
+background: #E8E8E8; 
+}
+
+.mainlevel div#menu1 {
+background:  transparent url(../images/footer_m_bg.jpg) top left repeat-x;
+text-align: left;
+}
+
+.mainlevel div#menu1 a {
+color:#FFFFFF;
+font-size:14px;
+font-weight:bold;
+background:none;
+}
+
+.mainlevel div#menu1 a:hover {
+background:none;
+color:#FFFFFF;
+font-size:14px;
+font-weight:bold;
+}
+
+.menu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #999999;
+	padding:5px;
+	border-bottom:#999999 dotted 1px;
+}
+
+.menu a {
+background: none;
+}
+
+.menu:hover a {
+	background:  none;
+}
+
+.menu:hover a:hover {
+	background:none;
+}
+
+.separator {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding:5px;
+	background: transparent url(../images/footer_m_bg.jpg) top left repeat-x;
+}
+/*them vao*/
+.review a {
+text-decoration:none;
+}
+.reviewmenu div:hover{
+background:#FFFFFF;
+}
+
+.reviewmenu div:hover a{
+text-decoration:none;
+}
+
+.reviewmenu div:hover a:hover{
+width: auto;
+height:auto;
+text-decoration:none;
+font-size:12px;
+font-weight: normal;
+}
+
+.reviewmenu div{
+height: 20px;
+background: #F6F6F6 repeat-x;
+padding:3px; border-bottom:solid 1px;
+border-left:solid 1px ; 
+border-right:solid 1px;
+border-color:#D0DBDD; 
+font-weight:bold;
+width:98%
+}
+
+.componentheading {
+font-size:14px;
+font-weight:bold;
+background:none;
+}
+
+.readon a {
+border-left:none;
+border-bottom:none;
+border-top:none;
+border-right:none;
+
+}
+
+.readon a:hover {
+text-decoration:none;
+font-style:normal;
+font-weight:normal;
+}
+
+.buttonheading a img {
+border-left:none;
+border-bottom:none;
+border-top:none;
+border-right:none;
+}
+.content {
+background:none;
+}
+
+.content {
+margin-top: 10px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.dmtin {
+font-size:12px;
+font-weight:normal; 
+}
+
+.dmtin ul a {
+font-weight:normal;
+text-decoration:none;
+}
+
+.dmtin ul a:hover {
+font-weight:normal; 
+color:#FF0000;
+text-decoration:none;
+}
+
+.dmtin ol li a{
+font-weight:normal; 
+font-size:12px;
+text-decoration:none;
+}
+
+.dmtin ol li a:hover{
+color: #FF0000; 
+font-weight:normal; 
+font-size:12px;
+text-decoration:none;
+}
+
+.download{
+background:url(../image/bg_3.gif) left;
+font-size:x-small;
+color: #000000;
+}
+
+.download ol {
+font-size:x-small
+}
+
+.download ol li a{
+font-weight:normal; 
+font-size:x-small;
+text-decoration:none;
+color:#000000;
+}
+
+.download ol li a:hover{
+color: #FF0000; 
+font-weight:normal; 
+font-size:x-small;
+font-style:normal;
+text-decoration:none;
+}
+
+.csvc{
+background:url(../image/bg_1.gif) left;
+font-size:12px;
+color:#333333;
+}
+.csvc ol {
+font-size:12px
+}
+
+.csvc ol li a{
+font-weight:normal; 
+font-size:12px;
+text-decoration:none;
+}
+
+.csvc ol li a:hover{
+color: #FF0000; 
+font-weight:normal; 
+font-size:12px;
+text-decoration:none;
+}
+
+.adminlist thead tr th {
+background-color: #336699;
+color:#FFFFFF;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+font-weight:bold
+}
+
+.row0 {
+background-color:#D3DAEF;
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+font-style:normal;
+font-weight:normal;
+}
+
+.row1 {
+background-color:#DAE1FE;
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+font-style:normal;
+font-weight:normal;
+}
+
+fieldset legend {
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+font-style:normal;
+font-weight:bold;
+}
+
+.panel h3{
+color:#003366;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-style:normal;
+font-weight:bold;
+}
+/**
+ * Joom!Fish - Multi Lingual extention and translation manager for Joomla!
+ * Copyright (C) 2003-2006 Think Network GmbH, Munich
+ * 
+ * All rights reserved.  The Joom!Fish project is a set of extentions for 
+ * the content management system Joomla!. It enables Joomla! 
+ * to manage multi lingual sites especially in all dynamic information 
+ * which are stored in the database.
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307,USA.
+ *
+ * The "GNU Lesser General Public License" (LGPL) is available at
+ * http: *www.gnu.org/copyleft/lgpl.html
+ * -----------------------------------------------------------------------------
+ * $Id: ReadMe,v 1.2 2005/03/15 11:07:01 akede Exp $
+ *
+*/
+
+/* Joom!Fish CSS definition used by the module or component. You might overwrite it in your
+ * template and remove this. Within your module configuration you can switch off the loading of the css*/
+
+div.jflanguageselection
+{
+	float: right;
+	vertical-align: middle;
+	padding: 3px 2px 2px 2px;
+}
+ 
+/* language lists with UL (names & images) */
+ul.jflanguageselection
+{
+	float: right;
+	vertical-align: middle;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.8em;
+}
+
+ul.jflanguageselection li
+{
+	background-image: none;
+	padding-left: 0px;
+	padding-right: 0px;
+	float: left;
+	margin: 1px 1px 1px 1px;
+	white-space: nowrap;
+	border: none;
+}
+
+ul.jflanguageselection li a
+{
+	display: block;
+}
+
+ul.jflanguageselection img
+{
+	border: none;
+}
+
+/** Styles for the drop down list */
+
+#jflanguageselection
+{
+	float: left;
+	vertical-align: top;
+	margin-top:0px;
+}
+
+select.jflanguageselection
+{
+	border: 1px solid #cccccc;
+	margin: 1px 1px 1px 1px;
+	padding: 0px 0px 1px 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 9px;
+	color: #c64934;
+}
+
+label.jflanguageselection
+{ position:absolute; left:-3000px}
+
+#language {
+	float:right;
+	width:auto;
+	height:26px;
+	text-align:left;
+	padding:5px 10px 0 10px;
+}

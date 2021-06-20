@@ -11,7 +11,7 @@ from chatty import Chatty
 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '51dc30af-b37c-4b8a-90ea-4f32d6be3c62'
+app.config['ACCESS_TOKEN'] = 'ACCESS_TOKEN'
 
 
 
@@ -61,14 +61,14 @@ def handleMessage(senderPsid, receivedMessage):
 
 @app.route('/', methods=["GET", "POST"])
 def home():
-    return render_template("index.html")
+    return render_template("home.html")
 
 
 @app.route('/webhook', methods=["GET", "POST"])
 def index():
     if request.method == 'GET':
         #do something.....
-        VERIFY_TOKEN = "128fea16-bef2-4f86-8402-2fbb9b9ed70e"
+        VERIFY_TOKEN = "my_flower_token"
 
         if 'hub.mode' in request.args:
             mode = request.args.get('hub.mode')
@@ -98,7 +98,7 @@ def index():
 
     if request.method == 'POST':
         #do something.....
-        VERIFY_TOKEN = "128fea16-bef2-4f86-8402-2fbb9b9ed70e"
+        VERIFY_TOKEN = "my_flower_token"
 
         if 'hub.mode' in request.args:
             mode = request.args.get('hub.mode')
