@@ -1,0 +1,78 @@
+{
+  "intents": [
+    {"tag": "greeting",
+      "patterns": ["xin chào", "hello", "hi","hey","good morning", "good afternoon", "good day"],
+      "responses": ["Xin chào, tôi có thể giúp gì cho bạn!"]
+     },
+     {"tag": "goodbye",
+      "patterns": ["bye", "see you later","tạm biệt","bái bai","hẹn gặp lại"],
+      "responses": ["Tạm biệt bạn, hẹn gặp lại lần sau !","bye bye"]
+     },
+     {"tag": "thanks",
+      "patterns": ["thanks", "thank you", "cám ơn","ok"],
+      "responses": ["Nếu có gì thắc mắc, bạn cứ tìm đến Chatbot nhé ! Tớ luôn sẵn sàng phục vụ cậu !","không có gì nà!"]
+     },
+     {
+      "tag": "cook",
+      "patterns": ["  Có được nấu ăn trong ktx không ","nấu ăn","nấu"],
+      "responses": [" Không nấu nướng, tàng trữ dụng cụ để chế biến và làm chín thức ăn trong phòng ở.", " Không được nấu ăn trong KTX nhé", "Tốt hơn là nên ra ngoài ăn"],
+      "context": [""]
+       },
+       {"tag": "namnu",
+        "patterns": ["  Nam giới có được xuống phòng nữ không ","nam vào phòng nữ","trai gái","nam nữ","ở chung nữ"],
+        "responses": [" Nam giới không được vô tầng nữ nhé!"],
+        "context": [""]
+      },
+       {"tag": "time",
+      "patterns": ["Giờ","thời gian mở cửa"],
+      "responses": ["Giờ mở cổng KTX: từ 05 giờ đến 23 giờ (giới nghiêm, cấm ra vào: từ 0g đến 03g30)."],
+      "context": [""]
+      },
+      {
+       "tag": "oto",
+      "patterns": ["ô tô", "giá gửi ô tô","xe hơi"],
+      "responses": ["Xin lỗi, KTX chưa có dịch vụ gửi xe ô tô cho sinh viên"],
+      "context": [""]
+      },
+      { "tag":"4dv",
+        "patterns":["Phòng dịch vụ 4sv","dịch 4","dịch vụ 4 người","giá tiền 4 người dịch vụ","4 dv"],
+        "responses":["Giá phòng 4 người dịch vụ là 2.500.000/tháng"]
+        },
+        {"tag": "6dv",
+        "patterns": ["Phòng dịch vụ 6sv","Phòng dịch vụ 6 người","dịch 6","6dv"],
+        "responses":["Giá phòng 6 người dịch vụ là 2.000.000/tháng"]
+        },
+        {"tag": "4t",
+        "patterns": ["thường 4 người ","4sv thường","thường 4","4 thường"],
+        "responses":["Giá phòng 4 người thường là 1.500.000/tháng"]
+        },
+        {"tag": "6t",
+        "patterns": ["Phòng thường 6sv","6 thường","thường 6","6 người thường"],
+        "responses":["Giá phòng 6 người thường là 1.000.000/tháng"]
+        },
+        {"tag": "8t",
+        "patterns": ["8 thường","Phòng thường 8sv","giá 8 thường","thường 8 người"],
+        "responses":["Giá phòng 8 người thường là 500.000/tháng"]
+        },
+        {"tag": "xdap",
+        "patterns": ["xe đạp","xe đạp tháng","giá xe đạp tháng","giá đạp"],
+        "responses":["Giá gửi xe đạp là 30.000/tháng"]
+        },
+        {"tag": "xmay",
+        "patterns": ["xe máy","giá xe máy","gửi xe máy","điện từ"],
+        "responses":["Giá gửi xe máy là 70.000/tháng"]
+        },
+        {"tag": "tulanh",
+        "patterns": ["thuê tủ lanh","thuê lạnh","tiền tủ lạnh"],
+        "responses":["Giá thuê tủ lạnh là 200.000/tháng"]
+        },
+        {"tag": "maygiat",
+        "patterns": ["máy giặt","tiền máy giặt","thuê giặt","tiền giặt"],
+        "responses":["Giá thuê máy giặt là 200.000/tháng"]   
+        },
+        {"tag": "fux",
+        "patterns": ["sửa chữa","hư hỏng","trang thiết bị","thay thế"],
+        "responses":["Chi phí sửa chữa, thay thế vật tư tính theo thời giá, vui lòng truy cập ktxbk.vn để biết thêm chi tiết."]
+        }
+  ]
+}
